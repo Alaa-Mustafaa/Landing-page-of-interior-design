@@ -226,14 +226,9 @@ border: none;
        
     }
     #fifth-section p{
-        font-size: 15px;padding-top: 4%;
-        }
-
-        #fifth-section h2{font-size: 35px;}
-
-}
-
-@media screen and (max-width: 760px) {
+        font-size: 15px;padding-top: 4%;}
+    #fifth-section h2{font-size: 35px;}}
+  @media screen and (max-width: 760px) {
 
     #first-section h1{font-size: 50px;margin-top: 10%;}
     #numbers{margin-top: 75%;}
@@ -280,7 +275,6 @@ footer{
 
     
   }
-
   @media screen  and (max-width: 670px) {
 
     #fifth-section #testmonial-left-side{
@@ -292,7 +286,6 @@ footer{
     }
     
   }
-
   @media screen and (min-width: 585px) and (max-width: 668px){
 
     #fifth-section #testmonial-left-side{
@@ -304,49 +297,16 @@ footer{
     }
     
   }
-
   @media screen  and (max-width: 585px) {
-
-    #fifth-section #testmonial-left-side{
-        width: 60%;
-        height: 77%;
-        top:28%;
-        right: 6%;
-       
-    }
-
+    #fifth-section #testmonial-left-side{width: 60%;height: 77%;top:28%;right: 6%;}
     #first-section h1{font-size: 40px;margin-top: 25%;}
-
-
-    #back_to_down_button{
-        right: 0%;
-      bottom: 0%;
-    }
-    #back_to_down_button button{
-        --bs-btn-padding-x: 1rem;
-        --bs-btn-padding-y: 1rem;
-    }
-
-    #square{
-        top:-8%;left: 0%;
-    }
-    
+    #back_to_down_button{right: 0%;bottom: 0%;}
+    #back_to_down_button button{--bs-btn-padding-x: 1rem;--bs-btn-padding-y: 1rem;}
+    #square{top:-8%;left: 0%;}
     #image1{margin-left: 10%;}
-
   }
-
-
   @media screen  and (max-width: 400px) {
-
-    #fifth-section #testmonial-left-side{
-        width: 66%;
-        height: fit-content;
-        bottom:0%;
-        right: 0%;
-        padding: 4%;
-       
-    }
-
+    #fifth-section #testmonial-left-side{width: 66%;height: fit-content;bottom:0%;right: 0%;padding: 4%; }
     #fifth-section #testmonial-right-side{width: 100%;height: fit-content;margin-left: 0%;margin-top: 11%;}
     #fifth-section .g-5, .gx-5 {--bs-gutter-x: 0rem;}
     #fifth-section #testmonial-left-side p{font-size: 12px;text-align: justify;}
@@ -357,8 +317,9 @@ footer{
     #image1{margin-left: 10%;margin-top: 50%;}
     #image2{margin-left: 0%;}
     #first-section #p{width: 100%;}
-    #testmonial-h2{margin-top: 5rem;}
+    #testmonial-h2{margin-top: 45%;}
     input::placeholder{font-size: 11.5px;}
+    #fifth-section .position-absolute #button{margin: 50% 0%; }
   }
 
 
