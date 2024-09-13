@@ -1,0 +1,359 @@
+/* Common styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root{
+    --white-color:white;
+    --footer-background-color:#1F1F1F;
+    --footer-list-color:#9b9a9a;
+    --footer-icons-background-color:#313131;
+}
+*{
+    font-family: "Inter", sans-serif;
+}
+/* End of common styles */
+
+/* First section */
+#first-section h1{font-size: 90px;}
+#back_to_down_button{
+    right: 0% ;bottom: 0px;z-index: 999;
+}
+
+#back_to_down_button button{
+    --bs-btn-padding-x: 2rem;
+    --bs-btn-padding-y: 2rem;
+}
+#image1{margin-left: 30%;margin-bottom: 5%;}
+#image2{margin-left: -5%;}
+
+#square{
+    width: 25vh;height: 25vh;z-index:-22;top: 48%;left: -7%;
+    border: 2px solid #1F1F1F;border-radius: 5px;
+}
+
+#testmonial-left-side .d-flex{padding-top: 3rem;}
+#back_to_down_button button i{font-size: 35px;}
+ /* Third section (Designing Your Dream With Brilliance) */
+
+#Designing-Your-Dream  #h2 ,#Designing-Your-Dream-in-Three-Simple-Steps-section h2,#fifth-section h2{
+    font-size: 50px;
+}
+
+#Designing-Your-Dream p{
+    font-size: 17px;
+    text-align: justify;
+}
+
+.accordion-button::after {
+
+    background-image:url('../images/plus.png');
+
+}
+ .btn {
+    --bs-btn-padding-x: 2rem;
+    --bs-btn-padding-y: 0.85rem;
+    --bs-btn-border-radius: none;}
+ /* End of Third section (Designing Your Dream With Brilliance) */
+
+/* fourth section (Designing-Your-Dream-in-Three-Simple-Steps-section) */
+#Designing-Your-Dream-in-Three-Simple-Steps-section i{
+    color: var(--white-color);
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px 12px;
+    font-size: 18px;
+}
+/* End of fourth section (Designing-Your-Dream-in-Three-Simple-Steps-section) */
+
+/*Fifth section (What Our Customers Say About Us)*/
+
+#fifth-section #testmonial-left-side{
+    width: 75%;
+    height: 75%;
+    bottom: -1.5%;
+    right: -12%;
+    background-color: var(--footer-icons-background-color);padding: 3rem;
+}
+
+#fifth-section #testmonial-right-side{
+    width: 80%;
+    height: 75%;
+    margin-left: 17%;
+    margin-top: 10.5%;
+    background-color: var(--footer-icons-background-color);
+}
+
+#fifth-section p{
+font-size: 20px;padding-top: 7%;
+}
+
+/* End of Fifth section (What Our Customers Say About Us)*/
+
+
+/* sixth section */
+#sixth-section #content{
+    width: 50%;
+}
+
+#sixth-section #content #p1{
+    font-size: 50px;
+}
+/*End of sixth section */
+
+
+/* Footer */
+footer{
+    background-color: var(--footer-background-color);
+    margin-top: 10%;
+    padding-top:4% ;
+}
+
+footer ul li{
+    color: var(--footer-list-color);
+}
+footer #social-media i{
+    color: var(--white-color);
+    padding: 3%;
+    margin: 0% 3% ;
+    border-radius: 20%;
+    font-size: 18px;
+    background-color: var(--footer-icons-background-color);
+}
+
+.form-control {
+border: none;
+    padding: 4%;
+    border-radius: var(--bs-border-radius);
+}
+
+.input-group-text {
+
+    background-color: var(--white-color);
+    border:none;
+}
+
+.form-control:focus {
+    border-color: black;
+    box-shadow: none;
+}
+#footer-form{
+    top: -12%;
+    
+}
+.input-group{width: 50%;}
+/* End of Footer */
+
+
+
+/* Media Query */ 
+@media screen and (max-width: 1100px) {
+    .input-group{width: 100%; }
+
+    #back_to_down_button{
+        right: 0% ;bottom: 18.5%;z-index: 999;
+    }
+
+    #square{
+        top: 39.5%;left: -7%;
+    }
+
+    #fifth-section #testmonial-left-side{
+        width: 75%;
+        height: 75%;
+        top:22%;
+        right: -12%;
+       
+    }
+    
+    #fifth-section #testmonial-right-side{
+        width: 75%;
+        height: 75%;
+        margin-left: 17%;
+        margin-top: 11%;
+       
+    }
+    #fifth-section p{
+        font-size: 15px;padding-top: 4%;
+        }
+
+        #fifth-section h2{font-size: 35px;}
+
+}
+
+@media screen and (min-width: 760px) and (max-width: 991px) {
+    #first-section h1{font-size: 70px;margin-top: 12%;}
+
+
+    #back_to_down_button{
+      bottom: 37.5%;
+    }
+    #back_to_down_button button{
+        --bs-btn-padding-x: 1rem;
+        --bs-btn-padding-y: 1rem;
+    }
+
+    #square{
+        top:-8%;left: -10%;
+    }
+
+    #fifth-section #testmonial-left-side{
+        width: 90%;
+        height: 70%;
+        top:15%;
+        right: -27%;
+       
+    }
+    
+    #fifth-section #testmonial-right-side{
+        width: 100%;
+        height: 70%;
+        margin-left: 25%;
+        margin-top: 11%;
+       
+    }
+    #fifth-section p{
+        font-size: 15px;padding-top: 4%;
+        }
+
+        #fifth-section h2{font-size: 35px;}
+
+}
+
+@media screen and (max-width: 760px) {
+
+    #first-section h1{font-size: 50px;margin-top: 10%;}
+    #numbers{margin-top: 75%;}
+    #back_to_down_button{
+        bottom: 0%;
+      }
+      #square{
+        top:-8%;left: -10%;
+    }
+    #fifth-section #testmonial-left-side{
+        width: 70%;
+        height: 75%;
+        top:30%;
+        right: -8%;
+       
+    }
+     /*Third section (Designing Your Dream With Brilliance) */
+
+
+    #Designing-Your-Dream  #h2,#Designing-Your-Dream-in-Three-Simple-Steps-section h2{
+        font-size: 30px;
+    }
+
+    /* sixth section */
+#sixth-section #content{
+    width: 100%;
+}
+
+#sixth-section #content #p1{
+    font-size: 30px;
+}
+/*End of sixth section */
+
+
+footer{
+    text-align: center;
+    padding-top: 4%;
+}
+#footer-form{
+    top: -3.5%;
+    right: 0.1%;
+    
+}
+
+    
+  }
+
+  @media screen  and (max-width: 670px) {
+
+    #fifth-section #testmonial-left-side{
+        width: 70%;
+        height: 77%;
+        top:28%;
+        right: -5%;
+       
+    }
+    
+  }
+
+  @media screen and (min-width: 585px) and (max-width: 668px){
+
+    #fifth-section #testmonial-left-side{
+        width: 65%;
+        height: 80%;
+        top:28%;
+        right: 0%;
+       
+    }
+    
+  }
+
+  @media screen  and (max-width: 585px) {
+
+    #fifth-section #testmonial-left-side{
+        width: 60%;
+        height: 77%;
+        top:28%;
+        right: 6%;
+       
+    }
+
+    #first-section h1{font-size: 40px;margin-top: 25%;}
+
+
+    #back_to_down_button{
+        right: 0%;
+      bottom: 0%;
+    }
+    #back_to_down_button button{
+        --bs-btn-padding-x: 1rem;
+        --bs-btn-padding-y: 1rem;
+    }
+
+    #square{
+        top:-8%;left: 0%;
+    }
+    
+    #image1{margin-left: 10%;}
+
+  }
+
+
+  @media screen  and (max-width: 480px) {
+
+    #fifth-section #testmonial-left-side{
+        width: 66%;
+        height: fit-content;
+        bottom:0%;
+        right: 0%;
+        padding: 4%;
+       
+    }
+
+    #fifth-section #testmonial-right-side{
+        width: 100%;
+        height: fit-content;
+        margin-left: 0%;
+        margin-top: 11%;
+       
+    }
+    #fifth-section .g-5, .gx-5 {
+        --bs-gutter-x: 0rem;
+    }
+
+    #fifth-section #testmonial-left-side p{font-size: 12px;text-align: justify;}
+
+#people{width: 50%;margin-top: -25%;}
+    #fifth-section svg{width: 50%;margin-top: -120%;}
+    #first-section h1{font-size: 40px;margin-top: 75%;}
+
+    #square{
+        top:-8%;left: 0%;
+    }
+    
+    #image1{margin-left: 10%;margin-top: 50%;}
+    #image2{margin-left: 0%;}
+
+
+  }
